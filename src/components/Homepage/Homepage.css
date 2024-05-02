@@ -1,0 +1,93 @@
+.homepage{
+    /* border:2px solid red; */
+    height:38vw;
+    margin:auto;
+    background: url("/homepage_img.jpeg");
+    /* background: url("/header_img.png"); */
+    background-repeat: no-repeat;
+    background-size:contain;
+    position:relative;
+    /* border:2px solid blue; */
+}
+
+.homepage-contents{
+    /* border:2px solid white; */
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3vw;
+    top:25%;
+    left:20%;
+    right:15%;
+    animation:fadeIn 3s;
+}
+
+.homepage-contents p{
+    font-size: 18px;
+}
+
+.homepage-contents button{
+    border:2px solid white;
+    padding:15px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+@media (max-width:1050px)
+{
+    .homepage-contents h1{
+        font-size: 23px;
+    }
+
+    .homepage-contents p{
+        font-size: 15px;
+    }
+    .button{
+        font-size:15px;
+    }
+
+}
+
+@media (max-width:900px)
+{
+    .homepage-contents h1{
+        font-size: 20px;
+    }
+
+    .homepage-contents p{
+        font-size: 13px;
+    }
+    .button{
+        font-size:12px;
+        /* padding:5px 10px; */
+    }
+
+}
+
+@media (max-width:700px)
+{
+    .homepage-contents h1{
+        font-size: 18px;
+    }
+
+    .homepage-contents p{
+        /* font-size: 10px; */
+        display:none;
+    }
+    .homepage-content button{
+        font-size:5px;
+        padding:2vw 4vw;
+    }
+
+}
