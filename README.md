@@ -6,3 +6,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+• Created a responsive food delivery web application using React.js, JavaScript (ES6+), Node.js, Express.js, and
+MongoDB, enhancing user experience and boosting customer retention by 40%.
+
+• Implemented an interactive “Add to Cart” and dynamic checkout feature with React Hooks, Context API, and RESTful
+API integration, improving usability and driving a 25% increase in average order value.
